@@ -18,6 +18,7 @@ const [num, setnum] = useState(0)
 			<button onClick={change}>change</button>
 <h1>Number{num}</h1>
 <button onClick={()=>setnum(num+1)}>increase</button>
+<button>dicrement</button>
 
 			
 		</div>
