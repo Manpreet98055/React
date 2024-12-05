@@ -14,14 +14,14 @@ const [num, setnum] = useState(0)
 	}
 	
 	return (
+		<div>
 		<div style={{background: data}}>Change {data} color{namesdfg}
 			<button onClick={change}>change</button>
 <h1>Number{num}</h1>
 <button onClick={()=>setnum(num+1)}>increase</button>
-<button>dicrement</button>
-
-			
+<button onClick={()=>setnum(num-1)}>dicrement</button>			
 		</div>
+	</div>
 	);
 };
 
