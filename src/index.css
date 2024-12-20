@@ -3,27 +3,30 @@
     justify-content: space-between;
     background-color: #270858;
     padding: 10px;
-    color: aliceblue;
+    color: white;
 }
 .brand{
     font-weight: bolder;
-    width: 20px;
+    width: 20%;
     text-align: center;
     font-size: 1.5rem;
     text-decoration: none;
     color: white;
+    margin-left: 200px;
 }
+
 .search-bar{
     width: 60%;
 }
+
 .search-bar input{
-    width: 55px;
-    /* text-align: center; */
+    width: 55%;
 }
-:-ms-input-placeholder{
+input::placeholder{
     padding: 10px;
     font-weight: bold;
 }
+
 .cart{
     width: 20%;
     text-align: center;
@@ -31,15 +34,18 @@
     font-size: 1.5rem;
     text-decoration: none;
     color: white;
+    background-color: #270858;
 }
+
 .nav-bar-wrapper{
     display: flex;
     justify-content: space-between;
     padding: 15px;
     background-color: #4b1b78;
-    color: antiquewhite;
+    color: white;
     font-weight: bold;
 }
+
 .img{
     display: flex;
     justify-content: center;
@@ -55,5 +61,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap:4rem
+}
+body{
+    background-color: rgb(254, 229, 229);
 }
